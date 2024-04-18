@@ -1,0 +1,9 @@
+<p>comp1 works!</p>
+<!-- Sending data to child use below code. "messageFromParent" is the input bound property in child component. For inout we use square brackets -->
+<app-comp2 [messageFromParent] = parentMsg></app-comp2>
+<!-- Receive data by using below code "sendMessageToParent" is the event that triggeres from child and send values to parent. 
+    For events we use round brackets () -->
+<!-- <app-comp2  (sendMessageToParent) = "getValueFromChild($event)"></app-comp2> -->
+<!-- {{childVal}} -->
+<br>
+
